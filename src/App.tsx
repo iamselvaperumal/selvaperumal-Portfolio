@@ -48,12 +48,13 @@ function App() {
       repo: "https://github.com/iamselvaperumal/Vishwas-2025",
     },
     {
+      image: "assets/download (2).png",
       title: "Portfolio Website",
       description:
         " highlight a professional's expertise, skills, and experience through a curated showcase of their best work and projects.",
       tech: ["TypeScript", "React", "TailwindCSS"],
-      demo: "#",
-      repo: "#",
+      demo: "selvaperumal-portfolio.vercel.app",
+      repo: "https://github.com/iamselvaperumal/selvaperumal-Portfolio",
     },
   ];
 
@@ -366,12 +367,12 @@ function App() {
               through any of the channels below.
             </p>
             <div className="contact-links">
-              <a href="mailto:hello@example.com" className="contact-link">
+              <a href="mailto:dev.iamselva@gmail.com" className="contact-link">
                 <Mail size={24} />
-                <span>hello@example.com</span>
+                <span>dev.iamselva@gmail.com</span>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/iamselvaperumal"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
@@ -380,7 +381,7 @@ function App() {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/selvaperumal-g-9656b32a1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
