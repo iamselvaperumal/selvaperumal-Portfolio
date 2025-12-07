@@ -8,8 +8,8 @@ import {
   Sparkles,
   User,
 } from "lucide-react";
+// Note: files placed in `public/` should be referenced by absolute paths (e.g. `/profile.jpg`)
 import { useEffect, useState } from "react";
-import profileImage from "../assets/profile.jpg";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,7 +30,7 @@ function App() {
 
   const projects = [
     {
-      image: "assets/download (1).png",
+      image: "/download (1).png",
       title: "Fasion E-Commerce Platform",
       description:
         " A full-featured e-commerce platform for fashion products with user authentication, product management.",
@@ -39,7 +39,7 @@ function App() {
       repo: "https://github.com/iamselvaperumal/fasion-website",
     },
     {
-      image: "assets/download.png",
+      image: "/download.png",
       title: "Vishwas",
       description:
         "E-Commerce For Farmers and Customers also the Logistics Partners.",
@@ -48,7 +48,7 @@ function App() {
       repo: "https://github.com/iamselvaperumal/Vishwas-2025",
     },
     {
-      image: "assets/download (2).png",
+      image: "/download (2).png",
       title: "Portfolio Website",
       description:
         " highlight a professional's expertise, skills, and experience through a curated showcase of their best work and projects.",
@@ -153,7 +153,7 @@ function App() {
         <div className="hero-content">
           <img
             className="hero-profile-image w-40 h-40 md:w-64 md:h-64 rounded-full border-4 border-white shadow-lg object-cover mx-auto"
-            src={profileImage}
+            src="/profile.jpg"
             alt="Profile"
           />
           <br />
@@ -190,7 +190,7 @@ function App() {
           <div className="about-content">
             <div className="about-image-container">
               <div className="about-image">
-                <img src="assets/profile.jpeg" alt="" />
+                <img src="/profile.jpeg" alt="" />
               </div>
             </div>
             <div className="about-text">
